@@ -10,7 +10,7 @@ mail.starttls()
 recipient='hs475052@gmail.com'
 sender='phoneaddicts007@gmail.com'
 try:
-    mail.login("phoneaddicts007@gmail.com","phoneaddicts")
+    mail.login("your email id","your password")
 except Exception:
     print("wrong password\n see below error's")
 header="To:"+recipient+'\n'+'From:' +sender+'\n'+'Subject:OTP {}\n'.format(otp)
